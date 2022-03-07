@@ -25,7 +25,7 @@ export function InputGroupCustom(): JSX.Element {
   }
 
   return (
-    <InputGroup as="form" onSubmit={handleSubmit}>
+    <InputGroup as="form" onSubmit={handleSubmit} autoComplete="off">
       <InputLeftElement pointerEvents="none" marginTop="4px">
         <FiSearch size="18px" />
       </InputLeftElement>

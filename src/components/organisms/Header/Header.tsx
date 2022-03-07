@@ -8,7 +8,7 @@ export function Header(): JSX.Element {
         <Box>
           <Heading size="md">Dev Finder</Heading>
         </Box>
-        <Box>Search for dev`s</Box>
+        <Box>Search for developers</Box>
       </Flex>
       <InputGroupCustom />
     </Stack>
