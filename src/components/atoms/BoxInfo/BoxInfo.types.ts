@@ -1,4 +1,4 @@
 export type BoxInfoProps = {
   title: string;
-  content: string;
+  content: string | number;
 };

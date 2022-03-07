@@ -13,6 +13,7 @@ export function DevBody({
   followers,
   following,
   html_url,
+  public_repos,
 }: UsersResponse): JSX.Element {
   return (
     <Box background="gray.900" p="1rem">
@@ -52,7 +53,7 @@ export function DevBody({
             textAlign="center"
             gap="1rem"
           >
-            <BoxInfo title="Repos" content="32" />
+            <BoxInfo title="Public Repos" content={public_repos} />
             <BoxInfo title="Followers" content={followers} />
             <BoxInfo title="Following" content={following} />
           </HStack>

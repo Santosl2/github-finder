@@ -6,4 +6,5 @@ export type UsersResponse = {
   bio: string;
   followers: string;
   following: string;
+  public_repos: number;
 };

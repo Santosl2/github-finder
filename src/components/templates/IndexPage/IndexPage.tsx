@@ -23,6 +23,7 @@ export function IndexPage(): JSX.Element {
           bio={data.bio}
           followers={data.followers}
           following={data.following}
+          public_repos={data.public_repos}
         />
       )}
     </Stack>
