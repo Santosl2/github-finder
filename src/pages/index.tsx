@@ -4,7 +4,7 @@ import { Flex } from "@chakra-ui/react";
 export default function Home() {
   return (
     <Flex
-      height="90vh"
+      height="100vh"
       maxWidth="900px"
       margin="0 auto"
       justifyContent="center"
