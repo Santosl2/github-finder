@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const gitSlice = createSlice({
   name: "gitUser",
   initialState: {
-    name: "",
+    name: "Santosl2",
   },
 
   reducers: {

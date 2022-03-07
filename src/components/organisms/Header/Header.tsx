@@ -1,5 +1,5 @@
 import { InputGroupCustom } from "@/components/molecules";
-import { Box, Flex, Heading, Stack } from "@chakra-ui/react";
+import { Badge, Box, Flex, Heading, Stack } from "@chakra-ui/react";
 
 export function Header(): JSX.Element {
   return (
@@ -8,7 +8,13 @@ export function Header(): JSX.Element {
         <Box>
           <Heading size="md">Dev Finder</Heading>
         </Box>
-        <Box>Search for developers</Box>
+        <Box>
+          Developed by
+          <a href="https://www.linkedin.com/in/mfilype/">
+            {" "}
+            <Badge colorScheme="green">mfilype / Santosl2</Badge>
+          </a>
+        </Box>
       </Flex>
       <InputGroupCustom />
     </Stack>
