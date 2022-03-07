@@ -18,6 +18,7 @@
 
 # Preview
 
-![https://i.imgur.com/YPIIS4b.png](https://i.imgur.com/YPIIS4b.png "DevFinder by Matheus Filype")
+![https://i.imgur.com/jqWBD5q.png](https://i.imgur.com/jqWBD5q.png "DevFinder by Matheus Filype")
+![https://i.imgur.com/oJBVmaB.gif](https://i.imgur.com/oJBVmaB.gif "DevFinder by Matheus Filype")
 
 Desenvolvido por Matheus Filype
